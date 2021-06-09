@@ -6,7 +6,7 @@ While ($true)
 	$process = Get-Process $name -ErrorAction SilentlyContinue
 	
 	if (!$process) {
-		Write-Output "RUNNING... $(Get-Date -Format '(yyyy/MM/dd HH:mm)')" 
+		Write-Output "STARTING... $(Get-Date -Format '(yyyy/MM/dd HH:mm)')" 
 		
 		Start-Process -Wait -FilePath cmd -ArgumentList "/k .\$name.exe"
 	}	
