@@ -1,2 +1,1 @@
 # Miner Monitor
-cwc
