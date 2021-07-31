@@ -34,5 +34,5 @@ while($true){
 		Write-Output "$(Get-Date -Format 'yyyy/MM/dd HH:mm:ss') $result (UP)"
 		
 	}
-	Start-Sleep -s 300
+	Start-Sleep -s 900
 }
