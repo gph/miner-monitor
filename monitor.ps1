@@ -17,5 +17,5 @@ while($true){
 		Write-Output "$(Get-Date -Format 'yyyy/MM/dd HH:mm:ss') (DOWN)"
         	MinerStartUp
 	}
-	Start-Sleep -s 15
+	Start-Sleep -s 60
 }
